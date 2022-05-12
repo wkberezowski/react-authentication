@@ -6,6 +6,7 @@ import classes from './ProfileForm.module.css';
 
 const ProfileForm = () => {
   const history = useHistory();
+
   const newPasswordInputRef = useRef();
   const authCtx = useContext(AuthContext);
 
